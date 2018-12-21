@@ -1,1 +1,19 @@
-/* write your override styles here */
+/* Override the first tag */
+#wall .tag-1 {
+  display: none;
+}
+
+/* Override the second tag */
+body #wall #tag-2 {
+  display: none;
+}
+
+/* Override the tricky third tag */
+body div#wall #tag-3.wicked {
+  display: none;
+}
+
+/* Override all other tags in one shot */
+html body .parent {
+  display: none;
+}
