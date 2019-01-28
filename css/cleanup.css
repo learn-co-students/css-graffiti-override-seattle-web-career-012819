@@ -1,1 +1,35 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+#wall > div#tag-2 { /* panda, tag 2*/
+  display: none;
+}
+
+#wall > div#tag-3.slick.wicked { /*tag 3 */
+  display:none;
+}
+
+
+#wall > div { 
+  display: none;
+}
+
+
+#wall div#tag-5.slick {
+  display: none;
+}
+
+#wall .parent #tag-4 { /*football helmet*/
+  display: none;
+}
+
+#wall .parent > div { /*girl graffiti */
+  display: none;
+}
+
+
+
+
+
